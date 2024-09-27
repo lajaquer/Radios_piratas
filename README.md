@@ -82,6 +82,27 @@ http://p-node.org/doc/index.php/Main_Page
 
 http://p-node.org/doc/index.php/Radio_Fischli_Weiss
 
+Aca las instrucciones para flashear la SD card:
+
+https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
+
+el comando seria algo asi como:
+
+dd bs=4M if=pibox-v3-2.img of=/dev/LASDnoELDDpilas(lea las instrucciones del enlace anterior)
+
+Nosotros no vamos a usar raspbian sino esta otra img de p-node:
+
+http://p-node.org/pibox_img/pibox-v3-2.img
+
+la pueden descargar desde la linea de commando con:
+
+wget -c http://p-node.org/pibox_img/pibox-v3-2.img
+
+en el mac use esta aplicacion ApplePi-Baker:
+http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
+
+
+
 
 ###Pendiente:
 Grabar un par de cortinas para radiolibre!
